@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
+import React from 'react'
 
-class Data extends Component{
+class Data extends React.Component{
     render() {
         
         const data = [
@@ -81,4 +81,4 @@ class Data extends Component{
     }
 }
 
-export default data
+export default Data
