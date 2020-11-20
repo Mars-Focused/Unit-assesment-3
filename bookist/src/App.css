@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: oldlace;
+  outline: 3px, black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: rgb(172, 168, 140);
+}
