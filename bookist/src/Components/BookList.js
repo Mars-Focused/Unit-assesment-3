@@ -1,11 +1,15 @@
 import React from 'react'
-import Data from './data'
+import Books from './Books'
 
-function BookList(){
+function BookList(props){
+
+    let mappedBooks = props.Books.map((element, index) => {
+        return <Books/>
+    })
 
     return <div className="booklist">
         <h1>BookList</h1>
-        <Data/>
+        <Books/>
     </div>
 }
 
