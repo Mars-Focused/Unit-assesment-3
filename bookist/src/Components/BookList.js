@@ -1,14 +1,12 @@
-import React ,{Component} from 'react'
+import React from 'react'
 import Data from './data'
 
-class BookList extends Component {
-    render(){
+function BookList(){
 
-        <div className='bookList'>
-        <h1>Book List</h1>
-
+    return <div className="booklist">
+        <h1>BookList</h1>
+        <Data/>
     </div>
-    }
 }
 
 export default BookList
